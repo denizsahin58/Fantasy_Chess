@@ -1,0 +1,47 @@
+{
+  "game_settings": {
+    "name": "Fantasy Chess",
+    "board_size": 8,
+    "turn_limit": 50
+  },
+  "pieces": [
+    {
+      "type": "King",
+      "color": "White",
+      "position": [
+        4,
+        0
+      ]
+    },
+    {
+      "type": "King",
+      "color": "Black",
+      "position": [
+        4,
+        7
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "entry": [
+        2,
+        3
+      ],
+      "exit": [
+        5,
+        5
+      ]
+    },
+    {
+      "entry": [
+        6,
+        6
+      ],
+      "exit": [
+        1,
+        1
+      ]
+    }
+  ]
+}
